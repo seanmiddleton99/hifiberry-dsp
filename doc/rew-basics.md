@@ -38,6 +38,12 @@ For this guide, we assume that your HiFiBerry sound card is already
 configured correctly. If you need more information how to do this,
 have a look at www.hifiberry.com
 
+You also need to enable SPI as
+dsptoolkit needs SPI to communicate with the DSP.
+Check out 
+https://www.raspberrypi-spy.co.uk/2014/08/enabling-the-spi-interface-on-the-raspberry-pi/
+
+
 ## Software installation
 
 If the DSP toolkit isn't already installed, you can install it with 
